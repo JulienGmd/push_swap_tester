@@ -2,8 +2,8 @@
 #set -e
 
 DIR=$(dirname "$0")
-PUSH_SWAP="${1:-$DIR/push_swap/push_swap}"
-CHECKER="${2:-$DIR/checker_linux}"
+PUSH_SWAP="${1:-$DIR/../push_swap/push_swap}"
+CHECKER="${2:-$DIR/../checker_linux}"
 
 echo_success() { echo -e "\033[32m$1\033[0m"; }
 echo_error() { echo -e "\033[31m$1\033[0m"; }
